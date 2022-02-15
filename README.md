@@ -60,5 +60,7 @@ apt-get install python
 # @XhokitoPe
 
 
+* Compatible Ubuntu 14, 16, 18
+
 
 
