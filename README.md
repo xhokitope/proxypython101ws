@@ -1,4 +1,12 @@
-# xhokitope
+# Proxy Python 101 WEBSOCKET
+
+# INICIO:
+
+apt-get update && apt-get upgrade -y
+
+sudo su
+
+cd
 
 # Archivo para crear proxy python con conexion HTTP/1.1 101 para conexiones websocket.
 
