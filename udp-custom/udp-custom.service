@@ -1,0 +1,13 @@
+[Unit]
+Description=udp-custom by ePro Dev. Team
+
+[Service]
+User=root
+Type=simple
+ExecStart=/root/udp/udp-custom server --config /root/udp/config.json --exclude 53,5300
+WorkingDirectory=/root/udp/
+Restart=always
+RestartSec=2s
+
+[Install]
+WantedBy=default.target
